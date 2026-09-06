@@ -1,0 +1,241 @@
+{
+  "admin_credentials": {
+    "email": "admin@hecm-afrique.net",
+    "password": "password123"
+  },
+  "professeurs": [
+    {
+      "id": 1,
+      "name": "Dr. AKOGBETO Jean",
+      "specialite": "Informatique"
+    },
+    {
+      "id": 2,
+      "name": "Prof. DOSSOU Marie",
+      "specialite": "Mathématiques"
+    },
+    {
+      "id": 3,
+      "name": "Dr. SODJINOU Pascal",
+      "specialite": "Bases de données"
+    },
+    {
+      "id": 4,
+      "name": "Dr. KOUGBLENOU Sylvie",
+      "specialite": "Réseaux"
+    }
+  ],
+  "filieres": [
+    {
+      "id": 1,
+      "code": "INFO-L3",
+      "name": "Licence 3 Informatique",
+      "description": "Programme de Licence 3 en Informatique",
+      "niveau": "L3",
+      "emploiDuTemps": {
+        "lundi": [
+          {
+            "id": "lun-1",
+            "matiere": "Programmation Orientée Objet",
+            "code": "INF301",
+            "heureDebut": "08:00",
+            "heureFin": "10:00",
+            "professeurId": 1,
+            "salle": "A1",
+            "type": "TP"
+          },
+          {
+            "id": "lun-2",
+            "matiere": "Bases de Données Avancées",
+            "code": "INF302",
+            "heureDebut": "10:15",
+            "heureFin": "12:15",
+            "professeurId": 3,
+            "salle": 1,
+            "type": "Cours"
+          },
+          {
+            "id": "lun-3",
+            "matiere": "Anglais Technique",
+            "code": "ANG301",
+            "heureDebut": "14:00",
+            "heureFin": "16:00",
+            "professeurId": 2,
+            "salle": 3,
+            "type": "TD"
+          }
+        ],
+        "mardi": [
+          {
+            "id": "mar-1",
+            "matiere": "Réseaux et Protocoles",
+            "code": "INF303",
+            "heureDebut": "08:00",
+            "heureFin": "10:00",
+            "professeurId": 4,
+            "salle": 1,
+            "type": "Cours"
+          },
+          {
+            "id": "mar-2",
+            "matiere": "Réseaux et Protocoles",
+            "code": "INF303",
+            "heureDebut": "10:15",
+            "heureFin": "12:15",
+            "professeurId": 4,
+            "salle": 4,
+            "type": "TP"
+          }
+        ],
+        "mercredi": [
+          {
+            "id": "mer-1",
+            "matiere": "Génie Logiciel",
+            "code": "INF304",
+            "heureDebut": "08:00",
+            "heureFin": "10:00",
+            "professeurId": 1,
+            "salle": 1,
+            "type": "Cours"
+          },
+          {
+            "id": "mer-2",
+            "matiere": "Bases de Données Avancées",
+            "code": "INF302",
+            "heureDebut": "10:15",
+            "heureFin": "12:15",
+            "professeurId": 3,
+            "salle": 2,
+            "type": "TP"
+          },
+          {
+            "id": "mer-3",
+            "matiere": "Projet Personnel",
+            "code": "INF305",
+            "heureDebut": "14:00",
+            "heureFin": "17:00",
+            "professeurId": 1,
+            "salle": 2,
+            "type": "Projet"
+          }
+        ],
+        "jeudi": [
+          {
+            "id": "jeu-1",
+            "matiere": "Systèmes Distribués",
+            "code": "INF306",
+            "heureDebut": "08:00",
+            "heureFin": "10:00",
+            "professeurId": 4,
+            "salle": 1,
+            "type": "Cours"
+          },
+          {
+            "id": "jeu-2",
+            "matiere": "Programmation Orientée Objet",
+            "code": "INF301",
+            "heureDebut": "10:15",
+            "heureFin": "12:15",
+            "professeurId": 1,
+            "salle": 1,
+            "type": "Cours"
+          }
+        ],
+        "vendredi": [
+          {
+            "id": "ven-1",
+            "matiere": "Génie Logiciel",
+            "code": "INF304",
+            "heureDebut": "08:00",
+            "heureFin": "10:00",
+            "professeurId": 1,
+            "salle": 3,
+            "type": "TD"
+          },
+          {
+            "id": "ven-2",
+            "matiere": "Systèmes Distribués",
+            "code": "INF306",
+            "heureDebut": "10:15",
+            "heureFin": "12:15",
+            "professeurId": 4,
+            "salle": 2,
+            "type": "TP"
+          }
+        ],
+        "samedi": [],
+        "dimanche": []
+      }
+    },
+    {
+      "id": 2,
+      "code": "MATH-L2",
+      "name": "Licence 2 Mathématiques",
+      "description": "Programme de Licence 2 en Mathématiques",
+      "niveau": "L2",
+      "emploiDuTemps": {
+        "lundi": [
+          {
+            "id": "lun-1",
+            "matiere": "Analyse Fonctionnelle",
+            "code": "MATH201",
+            "heureDebut": "08:00",
+            "heureFin": "10:00",
+            "professeurId": 2,
+            "salle": 1,
+            "type": "Cours"
+          },
+          {
+            "id": "lun-2",
+            "matiere": "Algèbre Linéaire",
+            "code": "MATH202",
+            "heureDebut": "10:15",
+            "heureFin": "12:15",
+            "professeurId": 2,
+            "salle": 3,
+            "type": "TD"
+          }
+        ],
+        "mardi": [
+          {
+            "id": "mar-1",
+            "matiere": "Probabilités",
+            "code": "MATH203",
+            "heureDebut": "08:00",
+            "heureFin": "10:00",
+            "professeurId": 2,
+            "salle": 1,
+            "type": "Cours"
+          }
+        ],
+        "mercredi": [],
+        "jeudi": [
+          {
+            "id": "jeu-1",
+            "matiere": "Analyse Fonctionnelle",
+            "code": "MATH201",
+            "heureDebut": "08:00",
+            "heureFin": "10:00",
+            "professeurId": 2,
+            "salle": 3,
+            "type": "TD"
+          }
+        ],
+        "vendredi": [
+          {
+            "id": "ven-1",
+            "matiere": "Probabilités",
+            "code": "MATH203",
+            "heureDebut": "10:15",
+            "heureFin": "12:15",
+            "professeurId": 2,
+            "salle": 3,
+            "type": "TD"
+          }
+        ],
+        "samedi": [],
+        "dimanche": []
+      }
+    }
+  ]
+}
